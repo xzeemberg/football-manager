@@ -40,8 +40,7 @@ const DEFAULT_TEAMS: Team[] = Array.from({ length: 7 }, (_, i) => ({
   players: [],
 }));
 
-const PLACEHOLDER_LOGO = "<a target="_blank" href="https://uppic.cloud/4Z5s87DKrMitmtr"><img  src="https://uppic.cloud/ib/7UwUiiJQUXYgZOc_1769529121.jpg" alt="354052228_726413395951828_8539747394113143113_n.jpg"/></a>";
-
+const PLACEHOLDER_LOGO = "https://cdn-icons-png.flaticon.com/512/1165/1165187.png";
 const App = () => {
   // --- Helper: Load Initial State ---
   const loadInitialState = () => {
@@ -461,7 +460,7 @@ const App = () => {
           <div className="flex items-center gap-3">
             <Trophy className="text-yellow-400" size={32} />
             <div>
-              <h1 className="text-2xl font-bold tracking-tight">Football Cup Manager</h1>
+              <h1 className="text-2xl font-bold tracking-tight">ITLPTC Football Cup</h1>
               <p className="text-green-200 text-xs">ระบบจัดการแข่งขัน 7 ทีม</p>
             </div>
           </div>
