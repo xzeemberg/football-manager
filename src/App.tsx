@@ -40,7 +40,7 @@ const DEFAULT_TEAMS: Team[] = Array.from({ length: 7 }, (_, i) => ({
   players: [],
 }));
 
-const PLACEHOLDER_LOGO = "https://cdn-icons-png.flaticon.com/512/1165/1165187.png";
+const PLACEHOLDER_LOGO = "<a target="_blank" href="https://uppic.cloud/4Z5s87DKrMitmtr"><img  src="https://uppic.cloud/ib/7UwUiiJQUXYgZOc_1769529121.jpg" alt="354052228_726413395951828_8539747394113143113_n.jpg"/></a>";
 
 const App = () => {
   // --- Helper: Load Initial State ---
